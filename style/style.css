@@ -1,0 +1,59 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    letter-spacing: -0.02em;
+    margin: 0;
+    padding: 0;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 40%;
+    margin: 5%;
+}
+.half-width img{
+    width: 88%;
+}
+.color-orange{
+    color: #FBA24F;
+}
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+     line-height: 130%;
+     color: #575757;
+     
+}
+section .half-width p{
+   
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: #828282;
+
+}
+.gradient-button{
+    text-decoration: none;
+    padding: 22.5px 43px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    color: white;
+    border-radius: 100px;
+}
+
+.title{
+    font-weight: 700;
+    line-height: 54px;
+    font-size: 40px;
+    color: #707070;
+}
+.full-width{
+    display: flex;
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    
+}
+.full-width img{
+    width: 62%;
+}
