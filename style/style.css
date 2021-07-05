@@ -6,6 +6,38 @@ body{
     margin: 0;
     padding: 0;
 }
+.menu-bar{
+    display: flex;
+}
+.logo{
+    width: 50%;
+    margin-left: 5%;
+}
+.logo img{
+    width: 14%;
+}
+.menu{
+
+    width: 50%;
+    text-align: center;
+    margin-top: 2%;
+    
+}
+.menu a{
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 130%;
+}
+.btn-menu{
+    background-color: white;
+    color: #fc4f31;
+    padding: 3% 5%;
+    border-radius: 20px; 
+}
+.btn-menu:hover{
+    color: white;
+    background-color: #fc4f31;
+}
 .container{
     display: flex;
 }
@@ -23,8 +55,8 @@ body{
     font-style: normal;
     font-weight: bold;
     font-size: 60px;
-     line-height: 130%;
-     color: #575757;
+    line-height: 130%;
+    color: #575757;
      
 }
 section .half-width p{
