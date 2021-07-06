@@ -161,6 +161,10 @@ body{
     padding: 2%;
     
 }
+#book-a-table{
+    background-image: url(../images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+}
 .half-width input{
     display: block;
     margin: 8% 2%;
